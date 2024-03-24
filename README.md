@@ -9,7 +9,7 @@ $ sudo npm install -g sequelize-cli
 
 $ npx sequelize-cli init
 
-## Userモデルの作成
+## モデルの作成
 
 $ npx sequelize-cli model:generate --name User --attributes name:string,email:string,password:string
 $ npx sequelize-cli model:generate --name Post --attributes title:string,content:string,user_id:integer
